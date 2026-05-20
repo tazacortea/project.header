@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(199, 202, 205);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+ li{
+    list-style: none;
+
+ }
+
+ button{
+    width: 100px;
+    height: 40px;
+    background-color: salmon;
+    border: 0px;
+    border-radius: 5px;
+
+ }
+
+ a{
+    text-decoration: none;
+    color: blanchedalmond;
+    
+ }
